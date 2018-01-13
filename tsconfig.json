@@ -1,0 +1,10 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "outDir": "target"
+  },
+  "types": ["node"],
+  "include": [
+    "src/**/*"
+  ]
+}
