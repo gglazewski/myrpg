@@ -7,4 +7,4 @@ app.get('/',function(req,res){
     res.sendFile(__dirname + '/index.html');
 });
 
-app.listen(80, () => console.log('Listening ON port 3000!'));
+app.listen(8080, () => console.log('Listening ON port 8080!'));
