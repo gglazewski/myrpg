@@ -13,6 +13,9 @@
     "ntypescript": "latest",
     "copyfiles": "latest"
   },
+  "devDependencies": {
+    "nodemon": "latest"
+  },
   "scripts": {
     "heroku-postbuild": "ntsc && copyfiles src/*.html -u 1 target",
     "start": "node target/server.js"

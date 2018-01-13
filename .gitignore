@@ -1,5 +1,4 @@
 /target
 /node_modules
-nodemon.json
 package-lock.json
 yarn.lock

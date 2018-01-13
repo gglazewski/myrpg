@@ -1,0 +1,9 @@
+{
+  "watch": [
+    "src/"
+  ],
+  "ext": "ts html",
+  "events": {
+    "restart": "copyfiles -u 1 src/*.html target"
+  }
+}
